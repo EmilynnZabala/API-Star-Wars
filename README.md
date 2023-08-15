@@ -34,6 +34,7 @@ tema, como: personagens e filmes.
 
 - [SWAPI - API (API Star Wars)](https://swapi.dev/documentation#planets)
 
+<br>
 
 
 ## ⚠️RECURSOS RAIZ
@@ -61,6 +62,8 @@ tema, como: personagens e filmes.
 
 ```Personagens - String``` A raiz do URL para recursos dos personagens
 
+<br>
+
 
 ## 🧝‍♀️PERSONAGENS 
 <p>
@@ -84,6 +87,8 @@ BBY ou ABY
 
 - ```gender string``` -- O sexo desta pessoa. "Masculino", "Feminino" ou "desconhecido",
 "n/a" se a pessoa não tiver gênero.
+
+<br>
 
 
 ## 🎬FILMES
