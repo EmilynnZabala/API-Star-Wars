@@ -113,3 +113,21 @@ universo Star Wars.
 - ```director string``` -- O nome do diretor deste filme.
 
 
+## 📉DIAGRAMAS 
+<div> 
+<b>
+ㅤDiagrama de Classe: 
+</b>
+
+- [Diagrama de Classe - API (API Star Wars)](https://drive.google.com/file/d/1NH7aOl1VVXhuM86ZP43Q-jg5WE17mRK-/view?usp=drivesdk)
+
+<br>
+
+<b>
+ㅤDiagrama de Banco de Dados: 
+</b>
+
+- [Diagrama de Banco de Dados - API (API Star Wars)](https://drive.google.com/file/d/1njkJ6Tg6g_QHogsTK1Ns24xeWfBt_mYR/view?usp=drivesdk)
+
+
+
