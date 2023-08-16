@@ -212,6 +212,17 @@ ao seu propósito e estilo.
 
 - [Diagrama - API (API Nova)](https://drive.google.com/file/d/1Xs57cBBY56i8TdQ_ysKq6gSHyk16dxrB/view?usp=drivesdk)
 
+<br>
+
+<b>
+ㅤDiagrama Físico: 
+</b>
+
+- [Diagrama Físico- API (API Nova)](https://drive.google.com/file/d/1Oo_IAh9sK3c-twmzNGIKhvU9t_B3QkZ9/view?usp=drivesdk)
+
+
+
+
 
 
 
