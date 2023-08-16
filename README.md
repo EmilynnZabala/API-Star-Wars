@@ -130,4 +130,66 @@ universo Star Wars.
 - [Diagrama de Banco de Dados - API (API Star Wars)](https://drive.google.com/file/d/1njkJ6Tg6g_QHogsTK1Ns24xeWfBt_mYR/view?usp=drivesdk)
 
 
+<br>
+
+<br>
+
+
+
+
+# CRIAÇÃO DA NOVA API
+
+<div> 
+<p>
+ㅤA API de Geração de Nomes, é uma plataforma de serviços que oferece uma maneira
+intuitiva e eficiente de criar nomes únicos e personalizados para diversas finalidades, como
+empresas, produtos, personagens e muito mais. Ao permitir uma gama de opções de
+configuração, está API visa atender às preferências individuais e às necessidades específicas dos
+usuários.
+  
+ㅤCom uma variedade de opções e configurações, você pode gerar nomes que se alinham
+ao seu propósito e estilo.
+</p>
+</div>
+
+<b>Endpoint :</b>
+
+``` GET /generate ```
+
+
+<b>Parâmetros :</b>
+
+``` type (string): ``` O tipo de nome que você deseja gerar (empresa, produto, personagem, etc.).
+
+``` theme (string): ``` O tema ou categoria do nome (tecnologia, moda, fantasia, etc.).
+
+``` keywords (string): ``` Palavras-chave que devem estar presentes no nome gerado.
+
+``` length (int): ``` O número de palavras ou caracteres no nome gerado.
+
+``` creativity (int): ``` Nível de criatividade, variando de 1 (convencional) a 5 (muito criativo).
+
+
+<b>Exemplo de solicitação :</b>
+
+``` GET /generate?type=company&theme=fantasia&length=10&creativity=4 ```
+
+
+<b>Resposta da solicitação: :</b>
+
+```
+{
+ "generated_names": [
+ "JadeBb8",
+ "Starbaby",
+ "YodaWars",
+ "WarsJadeStar",
+ "NaveWars"
+ ]
+}
+```
+
+
+
+
 
