@@ -32,27 +32,28 @@ tema, como: personagens e filmes.
 ㅤA URL base é a URL raiz para a API utilizada.
 </p>
 
-- [SWAPI - API (API Star Wars)](https://swapi.dev/documentation#planets)
+- [(API Star Wars -  Retorna dados)](https://potterdb.com/)
 
 <br>
 
 
-## ⚠️RECURSOS RAIZ
+## ⚠️MÉTODOS
 <div> 
 <p>
-ㅤO recurso raíz fornece informações sobre todos os recursos disponíveis na API.
+ㅤPara acessar os dados das APIs é necessário fazer um GET solicitando os seguintes endpoints.
+Vamos chamar este GET através de uma linha de comando, como por exemplo:
 </p>
 
 <b>Solicitação exemplo :</b>
 
-``` http https://swapi.dev/api/ ```
+``` (https://api.potterdb.com/v1/characters/star-wars) ```
 
 <b>Exemplo da resposta :</b>
 
 ```
 {
-"films": "https://swapi.dev/api/films/",
-"people": "https://swapi.dev/api/people/"
+"filmes": "https://api.potterdb.com/v1/films/star-wars",
+"personagens": "https://api.potterdb.com/v1/characters/star-wars"
 }
 ```
 
@@ -71,22 +72,25 @@ tema, como: personagens e filmes.
 universo Star Wars.
 </p>
 
-ㅤㅤ```/people/```-- obter todos os recursos de pessoas
+ㅤㅤ```/v1/characters```-- Este método irá obter recursos hospedados no servidor e retornará a lista de todos os personagens.
 
-ㅤㅤ```/people/:id/```-- obter um recurso de pessoas específico
+ㅤㅤ```/v1/characters/:slug```-- Este método irá obter recursos hospedados no servidor e retornará a lista de personagens específicos.
 
-ㅤㅤ```/people/schema/```-- visualize o esquema JSON para este recurso
 
 <br>
 <b> Atributos :</b>
 
-- ```name string``` -- O nome desta pessoa.
+- ```slug string``` -- O slug identifica o pergonagem.
 
-- ```birth_year string``` -- O ano de nascimento da pessoa, usando o padrão do universo de
-BBY ou ABY
+- ```name string``` -- Nome do personagem.
+
+- ```born string``` -- Data de nascimento do personagem.
 
 - ```gender string``` -- O sexo desta pessoa. "Masculino", "Feminino" ou "desconhecido",
 "n/a" se a pessoa não tiver gênero.
+
+- ```wiki string``` -- Um link para a página Wiki 
+
 
 <br>
 
@@ -97,20 +101,21 @@ BBY ou ABY
 universo Star Wars.
 </p>
 
-ㅤㅤ```/films/```-- obter todos os recursos dos filmes
+ㅤㅤ```/v1/movies/```-- Este método irá obter recursos hospedados no servidor e retornará a lista de todos os filmes.
 
-ㅤㅤ```/films/:id/```-- obter um recurso do filme específico
+ㅤㅤ```/v1/movies/:slug```-- Este método irá obter recursos hospedados no servidor e retornará a lista de filmes específicos.
 
-ㅤㅤ```/films/schema/```-- visualize o esquema JSON para este recurso
 
 <br>
 <b> Atributos :</b>
 
-- ```title string``` -- O título deste filme
+- ```slug string``` -- O slug identifica o filme.
 
-- ```episode_id integer``` -- O número do episódio deste filme.
+- ```title string``` -- Titulo do filme.
 
-- ```director string``` -- O nome do diretor deste filme.
+- ```summary string``` -- Data de nascimento do personagem.
+
+- ```wiki string``` -- Um link para a página Wiki 
 
 
 ## 📉DIAGRAMAS 
