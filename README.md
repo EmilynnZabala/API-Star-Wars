@@ -1,5 +1,5 @@
 <div> 
-  <h1> API - STAR WARS 🛸</h1>
+  <h1> STAR WARS 🛸</h1>
 </div>
 
 
