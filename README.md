@@ -204,7 +204,7 @@ ao seu propósito e estilo.
 
 - [Diagrama de Classe - API (API Nova)](https://drive.google.com/file/d/1FMpDKQbGBo9cL1vsB-0sNUdj-QTJ-YMV/view?usp=drivesdk)
 
-<br>
+
 
 <b>
 ㅤDiagrama : 
@@ -212,7 +212,6 @@ ao seu propósito e estilo.
 
 - [Diagrama - API (API Nova)](https://drive.google.com/file/d/1Xs57cBBY56i8TdQ_ysKq6gSHyk16dxrB/view?usp=drivesdk)
 
-<br>
 
 <b>
 ㅤDiagrama Físico: 
