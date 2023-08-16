@@ -196,5 +196,24 @@ ao seu propósito e estilo.
 
 
 
+## 📉DIAGRAMAS 
+<div> 
+<b>
+ㅤDiagrama de Classe: 
+</b>
+
+- [Diagrama de Classe - API (API Nova)](https://drive.google.com/file/d/1FMpDKQbGBo9cL1vsB-0sNUdj-QTJ-YMV/view?usp=drivesdk)
+
+<br>
+
+<b>
+ㅤDiagrama : 
+</b>
+
+- [Diagrama - API (API Nova)](https://drive.google.com/file/d/1Xs57cBBY56i8TdQ_ysKq6gSHyk16dxrB/view?usp=drivesdk)
+
+
+
+
 
 
